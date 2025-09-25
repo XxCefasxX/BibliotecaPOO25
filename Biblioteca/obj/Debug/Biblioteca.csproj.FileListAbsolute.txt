@@ -1,0 +1,7 @@
+D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\bin\Debug\Biblioteca.exe.config
+D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\bin\Debug\Biblioteca.exe
+D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\bin\Debug\Biblioteca.pdb
+D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\obj\Debug\Biblioteca.exe
+D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\obj\Debug\Biblioteca.pdb
