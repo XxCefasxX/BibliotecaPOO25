@@ -16,7 +16,7 @@ namespace Biblioteca
             return _lista;
         }
 
-        public static void LlenarCategorias()
+        private static void LlenarCategorias()
         {
             Categoria cat = new Categoria
             {

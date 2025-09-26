@@ -38,7 +38,7 @@ namespace Biblioteca
             _lista.Add(lib);
             lib = new Libro
             {
-                ID = 1,
+                ID = 3,
                 Titulo = "Señor de los anillos 2",
                 Autor = new Autor
                 {
@@ -56,6 +56,10 @@ namespace Biblioteca
 
         }
 
-
+        public static Libro ObtenerLibroPorId(int IdLibro)
+        {
+            llenarLibros();
+            return _lista.Find(libro => libro.ID == IdLibro);
+        }
     }
 }
