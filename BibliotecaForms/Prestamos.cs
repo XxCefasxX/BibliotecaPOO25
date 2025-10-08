@@ -68,6 +68,11 @@ namespace BibliotecaForms
 
             RepositorioPrestamos repPrestamos = new RepositorioPrestamos();
             repPrestamos.RealizarDevolucion(id);
+
+
+            //cuando el libro no se ha devuelto mostrar en blanco o guiones la fecha dev
+            //agregar un checkbox en la ventana de prestamos para mostrar u ocultar las devoluciones
+            //agregar buscador en los prestamos
         }
     }
 }
