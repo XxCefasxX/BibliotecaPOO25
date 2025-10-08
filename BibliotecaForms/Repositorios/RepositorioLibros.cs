@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BibliotecaForms.config;
 using MySql.Data.MySqlClient;
 
 
@@ -12,7 +13,7 @@ internal class RepositorioLibros : IRepositorio<Libro>
     private static List<Libro> _lista = new List<Libro>();
     public List<Libro> ObtenerDatos()
     {
-        MySqlConnection conn = new MySqlConnection("server=127.0.0.1;uid=root;pwd=123456;database=biblioteca");
+        MySqlConnection conn = new MySqlConnection(Settings.connstr);
         MySqlCommand comm = new MySqlCommand("SELECT * FROM libros", conn);
         comm.CommandType = System.Data.CommandType.Text;
         try
@@ -49,7 +50,7 @@ internal class RepositorioLibros : IRepositorio<Libro>
     public void RegistrarLibro(string titulo,string fecha,int paginas,int autor,int categoria, int editorial)
     {
        
-        MySqlConnection conn = new MySqlConnection("server=127.0.0.1;uid=root;pwd=123456;database=biblioteca");
+        MySqlConnection conn = new MySqlConnection(Settings.connstr);
         MySqlCommand comm = new MySqlCommand("insert into libros(titulo,fecha,paginas,categoria,autor,editorial) " +
            $"Values ('{titulo}','{fecha}',{paginas},{autor},{categoria},{editorial});", conn);
         comm.CommandType = System.Data.CommandType.Text;
@@ -75,7 +76,7 @@ internal class RepositorioLibros : IRepositorio<Libro>
     {
 
         DataTable dtLibros = new DataTable();
-        MySqlConnection conn = new MySqlConnection("server=127.0.0.1;uid=root;pwd=123456;database=biblioteca");
+        MySqlConnection conn = new MySqlConnection(Settings.connstr);
         MySqlCommand comm = new MySqlCommand(
             $"select * from libros where titulo like  concat('%', '{titulo}','%')  " +
             $"and categoria=if({IDCategoria}>0,{IDCategoria}, categoria);", conn);

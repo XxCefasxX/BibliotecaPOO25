@@ -8,9 +8,11 @@ using System.Threading.Tasks;
 internal class Prestamo
 {
     public int ID { get; set; }
-    public Libro Libro { get; set; }
+    public int IDLibro { get; set; }
+    public string Libro { get; set; }
     public DateTime FechaPrestamo { get; set; }
     public DateTime FechaDev { get; set; }
-    public Cliente Cliente { get; set; }
+    public int IDCliente { get; set; }
+    public string Cliente { get; set; }
 }
 

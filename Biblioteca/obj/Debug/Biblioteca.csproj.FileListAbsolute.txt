@@ -5,3 +5,11 @@ D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\obj\Debug\Biblioteca.csproj.As
 D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
 D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\obj\Debug\Biblioteca.exe
 D:\UNIDEP\POO\Proyectos\biblioteca\app\Biblioteca\obj\Debug\Biblioteca.pdb
+D:\Proyectos\UNIDEP\POO2025\biblioteca\BibliotecaPOO25\Biblioteca\bin\Debug\Biblioteca.exe.config
+D:\Proyectos\UNIDEP\POO2025\biblioteca\BibliotecaPOO25\Biblioteca\bin\Debug\Biblioteca.exe
+D:\Proyectos\UNIDEP\POO2025\biblioteca\BibliotecaPOO25\Biblioteca\bin\Debug\Biblioteca.pdb
+D:\Proyectos\UNIDEP\POO2025\biblioteca\BibliotecaPOO25\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+D:\Proyectos\UNIDEP\POO2025\biblioteca\BibliotecaPOO25\Biblioteca\obj\Debug\Biblioteca.exe.config
+D:\Proyectos\UNIDEP\POO2025\biblioteca\BibliotecaPOO25\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+D:\Proyectos\UNIDEP\POO2025\biblioteca\BibliotecaPOO25\Biblioteca\obj\Debug\Biblioteca.exe
+D:\Proyectos\UNIDEP\POO2025\biblioteca\BibliotecaPOO25\Biblioteca\obj\Debug\Biblioteca.pdb

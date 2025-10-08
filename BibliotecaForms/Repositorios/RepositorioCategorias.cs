@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BibliotecaForms.config;
 using MySql.Data.MySqlClient;
 
 
@@ -45,13 +46,14 @@ internal class RepositorioCategorias: IRepositorio<Categoria>
     /// <returns></returns>
     public List<Categoria> ObtenerDatos()
     {
+        _lista.Clear();
         Categoria cat = new Categoria
         {
             ID = 0,
             Nombre="Todas"
         };
         _lista.Add(cat);
-        MySqlConnection conn = new MySqlConnection("server=127.0.0.1;uid=root;pwd=123456;database=biblioteca");
+        MySqlConnection conn = new MySqlConnection(Settings.connstr);
         MySqlCommand comm = new MySqlCommand("SELECT * FROM categorias", conn);
         comm.CommandType = System.Data.CommandType.Text;
         try
